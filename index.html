@@ -34,8 +34,21 @@
 		#links img {
 			margin: 5px;
 		}
-	</style>
+		.responsiveContainer {
+		  position: relative;
+		  padding-bottom: 56%;
+		  height: 0;
+		  overflow: hidden;
+		}
 
+		.responsiveContainer iframe {
+		  position: absolute;
+		  top: 0;
+		  left: 0;
+		  width: 100%;
+		  height: 100%;
+		}
+	</style>
 </head>
 <body>
 	<div class="container text-center">
@@ -50,32 +63,8 @@
 		</p>
 		<br>
 		<div id="links" class="col-xs-12">
-			<a href="images/w1.jpg" title="Richtung Zentrum" data-gallery>
-				<img src="images/thumbnails/w1.jpg" alt="Richtung Zentrum">
-			</a>
-			<a href="images/w2.jpg" title="Richtung Skilift" data-gallery>
-				<img src="images/thumbnails/w1.jpg" alt="Richtung Skilift">
-			</a>
-			<a href="images/w3.jpg" title="Dusche" data-gallery>
-				<img src="images/thumbnails/w3.jpg" alt="Dusche">
-			</a>
-			<a href="images/w4.jpg" title="Bad" data-gallery>
-				<img src="images/thumbnails/w4.jpg" alt="Bad">
-			</a>
 			<a href="images/w5.jpg" title="Eingang" data-gallery>
 				<img src="images/thumbnails/w5.jpg" alt="Eingang">
-			</a>
-			<a href="images/w6.jpg" title="Fahrradständer" data-gallery>
-				<img src="images/thumbnails/w6.jpg" alt="Fahrradständer">
-			</a>
-			<a href="images/w7.jpg" title="Fahrradständer" data-gallery>
-				<img src="images/thumbnails/w7.jpg" alt="Fahrradständer">
-			</a>
-			<a href="images/w8.jpg" title="Ski und Snowboard" data-gallery>
-				<img src="images/thumbnails/w8.jpg" alt="Ski und Snowboard">
-			</a>
-			<a href="images/w9.jpg" title="Ski und Snowboardständer" data-gallery>
-				<img src="images/thumbnails/w9.jpg" alt="Ski und Snowboardständer">
 			</a>
 			<a href="images/w10.jpg" title="Gesamtansicht" data-gallery>
 				<img src="images/thumbnails/w10.jpg" alt="Gesamtansicht">
@@ -100,6 +89,30 @@
 			</a>
 			<a href="images/w17.jpg" title="Tisch" data-gallery>
 				<img src="images/thumbnails/w17.jpg" alt="Tisch">
+			</a>
+			<a href="images/w3.jpg" title="Dusche" data-gallery>
+				<img src="images/thumbnails/w3.jpg" alt="Dusche">
+			</a>
+			<a href="images/w4.jpg" title="Bad" data-gallery>
+				<img src="images/thumbnails/w4.jpg" alt="Bad">
+			</a>
+			<a href="images/w8.jpg" title="Ski und Snowboard" data-gallery>
+				<img src="images/thumbnails/w8.jpg" alt="Ski und Snowboard">
+			</a>
+			<a href="images/w9.jpg" title="Ski und Snowboardständer" data-gallery>
+				<img src="images/thumbnails/w9.jpg" alt="Ski und Snowboardständer">
+			</a>
+			<a href="images/w6.jpg" title="Fahrradständer" data-gallery>
+				<img src="images/thumbnails/w6.jpg" alt="Fahrradständer">
+			</a>
+			<a href="images/w7.jpg" title="Fahrradständer" data-gallery>
+				<img src="images/thumbnails/w7.jpg" alt="Fahrradständer">
+			</a>
+			<a href="images/w1.jpg" title="Richtung Zentrum" data-gallery>
+				<img src="images/thumbnails/w1.jpg" alt="Richtung Zentrum">
+			</a>
+			<a href="images/w2.jpg" title="Richtung Skilift" data-gallery>
+				<img src="images/thumbnails/w1.jpg" alt="Richtung Skilift">
 			</a>
 			<a href="images/walkenberg_01.jpg" title="Walkenberg 1" data-gallery>
 				<img src="images/thumbnails/walkenberg_01.jpg" alt="Walkenberg 1">
@@ -152,7 +165,9 @@
 			<p>
 			</p>
 			<p>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2500.426088401881!2d8.522925950965663!3d51.19279997948441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bb8d9b40526695%3A0xc1df946643a65cb7!2sAm+Waltenberg+47%2C+59955+Winterberg!5e0!3m2!1sde!2sde!4v1454075200727" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<div class="responsiveContainer">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2500.426088401881!2d8.522925950965663!3d51.19279997948441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bb8d9b40526695%3A0xc1df946643a65cb7!2sAm+Waltenberg+47%2C+59955+Winterberg!5e0!3m2!1sde!2sde!4v1454075200727" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
 			</p>
 			<p>
 				<br>
